@@ -3,8 +3,6 @@
 
 - 🔭 I’m currently working on [Fraud detection model for google playstore](https://github.com/emojiworld777/google-playstore)
 
-- 🌱 I’m currently learning **react js**
-
 - 👨‍💻 All of my projects are available at [https://github.com/emojiworld777](https://github.com/emojiworld777)
 
 - 💬 Ask me about **exploratory data analysis , sql, machine learning,data visualization, tableau, pandas **
