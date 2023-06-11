@@ -5,7 +5,7 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/emojiworld777](https://github.com/emojiworld777)
 
-- 💬 Ask me about **exploratory data analysis , sql, machine learning,data visualization, tableau, pandas **
+- 💬 Ask me about **exploratory data analysis , sql, machine learning,data visualization, tableau, pandas, numpy , python**
 
 - 📫 How to reach me **nagersatvik777@gmail.com**
 
