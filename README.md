@@ -43,7 +43,11 @@ COMMS    : nagersatvik777@gmail.com
 > **Real-Time AIoT Surveillance & Automated E-Challan System** — Detects vehicle littering from live/batch video streams, extracts license plates with two-pass ANPR, and issues printable legal E-Challans.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/emojiworld777/SMART_LITTER_CHALLAN_V2/main/assets/litter_detection_demo.gif" alt="Smart Litter Challan V2 Live Detection" width="84%"/>
+
+| `STREAM 01 // ROADSIDE LITTER DETECTION` | `STREAM 02 // DYNAMIC CANDIDATE TRACKING` |
+| :---: | :---: |
+| <img src="https://raw.githubusercontent.com/emojiworld777/SMART_LITTER_CHALLAN_V2/main/assets/litter_detection_demo.gif" alt="Smart Litter Challan V2 Live Detection" width="420"/> | <img src="assets/anpr_stream.gif" alt="Dynamic Candidate Detection Stream" width="420"/> |
+
 </div>
 
 <br/>
@@ -131,6 +135,6 @@ COMMS    : nagersatvik777@gmail.com
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,50:00FF9D,100:0A1324&height=90&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,50:00FF9D,100:0A1324&height=90&section=footer&animation=twinkling" width="100%"/>
 
 </div>

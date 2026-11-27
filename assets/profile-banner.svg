@@ -10,23 +10,45 @@
       <stop offset="50%" stop-color="#00FF9D"/>
       <stop offset="100%" stop-color="#00B8FF"/>
     </linearGradient>
+    <linearGradient id="scanBeam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00F0FF" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#00FF9D" stop-opacity="0"/>
+    </linearGradient>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00F0FF" stroke-opacity="0.08" stroke-width="1"/>
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00F0FF" stroke-opacity="0.09" stroke-width="1"/>
     </pattern>
   </defs>
 
+  <!-- Background & Grid -->
   <rect width="1200" height="260" rx="14" fill="url(#bg)"/>
   <rect width="1200" height="260" rx="14" fill="url(#grid)"/>
 
-  <!-- HUD Brackets -->
-  <path d="M 24 56 L 24 24 L 66 24" fill="none" stroke="#00F0FF" stroke-width="3"/>
-  <path d="M 1134 24 L 1176 24 L 1176 56" fill="none" stroke="#00F0FF" stroke-width="3"/>
-  <path d="M 24 204 L 24 236 L 66 236" fill="none" stroke="#00FF9D" stroke-width="3"/>
-  <path d="M 1134 236 L 1176 236 L 1176 204" fill="none" stroke="#00FF9D" stroke-width="3"/>
+  <!-- Live Sweeping Radar Scan Line -->
+  <rect x="0" y="-40" width="1200" height="40" fill="url(#scanBeam)">
+    <animate attributeName="y" from="-40" to="280" dur="4s" repeatCount="indefinite"/>
+  </rect>
 
-  <!-- Status Badge -->
+  <!-- Animated HUD Corner Brackets -->
+  <path d="M 24 56 L 24 24 L 66 24" fill="none" stroke="#00F0FF" stroke-width="3">
+    <animate attributeName="stroke-opacity" values="1;0.35;1" dur="2.5s" repeatCount="indefinite"/>
+  </path>
+  <path d="M 1134 24 L 1176 24 L 1176 56" fill="none" stroke="#00F0FF" stroke-width="3">
+    <animate attributeName="stroke-opacity" values="1;0.35;1" dur="2.5s" repeatCount="indefinite"/>
+  </path>
+  <path d="M 24 204 L 24 236 L 66 236" fill="none" stroke="#00FF9D" stroke-width="3">
+    <animate attributeName="stroke-opacity" values="0.35;1;0.35" dur="2.5s" repeatCount="indefinite"/>
+  </path>
+  <path d="M 1134 236 L 1176 236 L 1176 204" fill="none" stroke="#00FF9D" stroke-width="3">
+    <animate attributeName="stroke-opacity" values="0.35;1;0.35" dur="2.5s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Status Badge with Pulsing LED -->
   <rect x="445" y="34" width="310" height="26" rx="13" fill="#00F0FF" fill-opacity="0.12" stroke="#00F0FF" stroke-opacity="0.5" stroke-width="1"/>
-  <circle cx="466" cy="47" r="4.5" fill="#00FF9D"/>
+  <circle cx="466" cy="47" r="4.5" fill="#00FF9D">
+    <animate attributeName="r" values="4;6.5;4" dur="1.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.4;1" dur="1.4s" repeatCount="indefinite"/>
+  </circle>
   <text x="608" y="52" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="12" font-weight="bold" fill="#00F0FF" letter-spacing="2">OPERATOR // SATVIK NAGAR</text>
 
   <!-- Main Name -->
@@ -36,8 +58,10 @@
   <text x="600" y="162" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="17" fill="#A8C7E0" letter-spacing="1.5">DATA SCIENTIST  •  COMPUTER VISION  •  AIoT &amp; DATA ENGINEERING</text>
 
   <!-- Telemetry Footer -->
-  <line x1="160" y1="194" x2="1040" y2="194" stroke="#00F0FF" stroke-opacity="0.25" stroke-width="1"/>
+  <line x1="160" y1="194" x2="1040" y2="194" stroke="#00F0FF" stroke-opacity="0.3" stroke-width="1"/>
   <text x="290" y="222" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#00FF9D">LOC: INDIA</text>
   <text x="600" y="222" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#00F0FF">FOCUS: ML • YOLO • ANPR • SQL/NoSQL</text>
-  <text x="910" y="222" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#00FF9D">STATUS: BUILDING</text>
+  <text x="910" y="222" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#00FF9D">STATUS: ONLINE
+    <animate attributeName="opacity" values="1;0.4;1" dur="1.8s" repeatCount="indefinite"/>
+  </text>
 </svg>
