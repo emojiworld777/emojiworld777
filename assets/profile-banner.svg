@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050811"/>
+      <stop offset="50%" stop-color="#0A1324"/>
+      <stop offset="100%" stop-color="#050B14"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF"/>
+      <stop offset="50%" stop-color="#00FF9D"/>
+      <stop offset="100%" stop-color="#00B8FF"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00F0FF" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="260" rx="14" fill="url(#bg)"/>
+  <rect width="1200" height="260" rx="14" fill="url(#grid)"/>
+
+  <!-- HUD Brackets -->
+  <path d="M 24 56 L 24 24 L 66 24" fill="none" stroke="#00F0FF" stroke-width="3"/>
+  <path d="M 1134 24 L 1176 24 L 1176 56" fill="none" stroke="#00F0FF" stroke-width="3"/>
+  <path d="M 24 204 L 24 236 L 66 236" fill="none" stroke="#00FF9D" stroke-width="3"/>
+  <path d="M 1134 236 L 1176 236 L 1176 204" fill="none" stroke="#00FF9D" stroke-width="3"/>
+
+  <!-- Status Badge -->
+  <rect x="445" y="34" width="310" height="26" rx="13" fill="#00F0FF" fill-opacity="0.12" stroke="#00F0FF" stroke-opacity="0.5" stroke-width="1"/>
+  <circle cx="466" cy="47" r="4.5" fill="#00FF9D"/>
+  <text x="608" y="52" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="12" font-weight="bold" fill="#00F0FF" letter-spacing="2">OPERATOR // SATVIK NAGAR</text>
+
+  <!-- Main Name -->
+  <text x="600" y="122" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="800" fill="#FFFFFF" letter-spacing="3">SATVIK <tspan fill="url(#neon)">NAGAR</tspan></text>
+
+  <!-- Role -->
+  <text x="600" y="162" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="17" fill="#A8C7E0" letter-spacing="1.5">DATA SCIENTIST  •  COMPUTER VISION  •  AIoT &amp; DATA ENGINEERING</text>
+
+  <!-- Telemetry Footer -->
+  <line x1="160" y1="194" x2="1040" y2="194" stroke="#00F0FF" stroke-opacity="0.25" stroke-width="1"/>
+  <text x="290" y="222" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#00FF9D">LOC: INDIA</text>
+  <text x="600" y="222" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#00F0FF">FOCUS: ML • YOLO • ANPR • SQL/NoSQL</text>
+  <text x="910" y="222" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#00FF9D">STATUS: BUILDING</text>
+</svg>
