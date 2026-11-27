@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm SATVIK NAGAR</h1>
 <h3 align="center">A Aspiring Data Scientist from India</h3>
 
-- 🔭 I’m currently working on [pubg-hacker-detection-and-exploratory-data-analysis](https://github.com/emojiworld777/pubg-hacker-detection-and-exploratory-data-analysis )
-
 - 👨‍💻 All of my projects are available at [https://github.com/emojiworld777](https://github.com/emojiworld777)
 
 - 💬 Ask me about **exploratory data analysis , sql, machine learning,data visualization, tableau, pandas, numpy , python**
