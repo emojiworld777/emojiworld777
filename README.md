@@ -46,7 +46,7 @@ COMMS    : nagersatvik777@gmail.com
 
 | `STREAM 01 // ROADSIDE LITTER DETECTION` | `STREAM 02 // DYNAMIC CANDIDATE TRACKING` |
 | :---: | :---: |
-| <img src="https://raw.githubusercontent.com/emojiworld777/SMART_LITTER_CHALLAN_V2/main/assets/litter_detection_demo.gif" alt="Smart Litter Challan V2 Live Detection" width="420"/> | <img src="assets/anpr_stream.gif" alt="Dynamic Candidate Detection Stream" width="420"/> |
+| <img src="assets/litter_detection_demo.gif" alt="Smart Litter Challan V2 Live Detection" width="100%"/> | <img src="assets/anpr_stream.gif" alt="Dynamic Candidate Detection Stream" width="100%"/> |
 
 </div>
 
@@ -56,7 +56,7 @@ COMMS    : nagersatvik777@gmail.com
 
 | `01 // BEFORE THROW` | `02 // DURING THROW` | `03 // AFTER LITTER` | `04 // ANPR PLATE` |
 | :---: | :---: | :---: | :---: |
-| <img src="https://raw.githubusercontent.com/emojiworld777/SMART_LITTER_CHALLAN_V2/main/assets/evidence_before.jpg" width="195"/> | <img src="https://raw.githubusercontent.com/emojiworld777/SMART_LITTER_CHALLAN_V2/main/assets/evidence_during.jpg" width="195"/> | <img src="https://raw.githubusercontent.com/emojiworld777/SMART_LITTER_CHALLAN_V2/main/assets/evidence_after.jpg" width="195"/> | <img src="https://raw.githubusercontent.com/emojiworld777/SMART_LITTER_CHALLAN_V2/main/assets/evidence_plate.jpg" width="135"/> |
+| <img src="assets/evidence_before.jpg" width="100%"/> | <img src="assets/evidence_during.jpg" width="100%"/> | <img src="assets/evidence_after.jpg" width="100%"/> | <img src="assets/evidence_plate.jpg" width="120"/> |
 
 </div>
 
